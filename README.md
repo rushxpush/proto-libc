@@ -35,8 +35,10 @@ docs/            # small notes as the project grows
 For now (subject to change anytime):
 
 ```
-nasm -f elf64 -g -F dwarf file.asm -o file.o
-ld -o file file.o
+# Will build every file
+# I'll change this in the future to build
+# only what you want to build
+./build.sh
 ```
 
 ### **Notes**
